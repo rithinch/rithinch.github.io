@@ -26,19 +26,23 @@ projects:
     archived: true
     forks: true
     projects:
-    # - repo-name
+      - uber-pickups-data-analysis
+      - Tic-Tac-Toe
+      - SQLite-Python-DataInserting
+      - 210CT-Coursework
+      - BinarySeach-vs-LinearSearch
 
 social_media:
   # behance: your_username
   # dribbble: your_username
-  facebook: rithinn
+  #facebook: rithinn
   hackerrank: rithinch
-  instagram: rithinn
+  #instagram: rithinn
   # keybase: your_username
   linkedin: rithin-chalumuri
   # mastodon: your_username
   medium: rithin.chalumuri
-  stackoverflow: rithin-chalumuri
+  stackoverflow: 11914067
   # telegram: your_username
   # twitter: your_username
   # unsplash: your_username
