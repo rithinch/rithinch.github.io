@@ -1,7 +1,7 @@
 {% include header.html %}
 
 {% capture post_body %}
-  {% if site.social_media %}
+  <!-- {% if site.social_media %}
     {% assign shareable_social_media = '' | split: ',' %}
 
     {% for account in site.social_media %}
@@ -29,7 +29,7 @@
         </ul>
       </div>
     {% endif %}
-  {% endif %}
+  {% endif %} -->
   <div class="article">
     {{ content }}
   </div>
@@ -37,7 +37,7 @@
 
 {% if site.layout == 'stacked' %}
   <div class="container-lg py-6 p-responsive text-center">
-    {% include masthead.html metadata=false %}
+    <!-- {% include masthead.html metadata=false %} -->
 
     <div class="container-md f4 text-left border rounded-2 bg-white p-3 p-sm-5 mt-6">
       <p class="f5"><a href="/" class="d-flex flex-items-center">{% octicon chevron-left height:16 class:"mr-2 v-align-middle" fill:#0366d6 aria-label:Home %}Home</a></p>
@@ -45,6 +45,7 @@
       <p class="{% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %} mb-5">Published {{ page.date | date: "%b %d, %Y"}}</p>
       {{ post_body }}
     </div>
+    {% include copyright.html %}
   </div>
 {% else %}
   <div class="d-md-flex min-height-full {% unless site.style == 'dark' %}border-md-bottom{% endunless %}">
