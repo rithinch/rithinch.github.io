@@ -25,3 +25,19 @@ def show
   end
 end
 ```
+
+- name: C#
+  web_url: https://github.com/topics/csharp
+  image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/csharp/csharp.png
+
+- name: .NET
+    web_url: https://github.com/topics/dotnet
+    image_url: https://raw.githubusercontent.com/github/explore/93d8a67084f94b2a444e510199a6e7622e5b09a3/topics/dotnet/dotnet.png
+    
+- name: SQL
+  web_url: https://github.com/topics/sql
+  image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png
+
+- name: MongoDB
+  web_url: https://github.com/topics/mongodb
+  image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png

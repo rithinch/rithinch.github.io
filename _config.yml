@@ -21,7 +21,7 @@ projects:
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 9
+  limit: 12
   exclude:
     archived: true
     forks: true
@@ -74,7 +74,7 @@ topics:
   - name: PyTorch
     web_url: https://github.com/topics/pytorch
     image_url: https://pytorch.org/assets/images/pytorch-logo.png
-  
+
   - name: Kubernetes
     web_url: https://github.com/topics/kubernetes
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/kubernetes/kubernetes.png
