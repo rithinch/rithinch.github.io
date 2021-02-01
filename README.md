@@ -58,7 +58,8 @@ Configuration file: /octocat/personal-website/_config.yml
   Server running... press ctrl-c to stop.
 ```
 
-Don't worry about the "No GitHub API authentication could be found" message. [API authentication is only necessary](https://github.com/jekyll/github-metadata/blob/master/docs/authentication.md) if you intend to display more detailed metadata, like a branch name.
+Don't worry about the "No GitHub API authentication could be found" message. [API authentication is only necessary](https://github.com/jekyll/github-metadata/blob/master/docs/authentication.md) if you intend to display more detailed metadata, like a branch name..
+
 
 6. Now browse to [http://localhost:4000](http://localhost:4000)
 
